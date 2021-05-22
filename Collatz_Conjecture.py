@@ -8,7 +8,8 @@ while num <= 0:
 i = 0
 
 #Print the starting number
-print ("Starting number =",num)
+print ("Testing new vimrc with Python code")
+print ("Starting number =", num)
 
 #Start main loop
 while num != 1:

@@ -7,7 +7,7 @@ The **Collatz Conjecture** is a conjecture in mathematics that concerns a sequen
 For more info: [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
 
 ## Purpose of the Program
-I am writing a program that will confirm that when the Collatz Conjecture is applied to positive integers, the sequnce will end with 1. This is not a **proof**. For more information on why the conjecture is not proven, see the link above.
+I am writing a program that will confirm that when the Collatz Conjecture is applied to positive integers, the sequence will end with 1. This is not a **proof**. For more information on why the conjecture is not proven, see the link above.
 
 The program flow:
 1. Take a starting positive integer
