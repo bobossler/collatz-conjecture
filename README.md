@@ -16,6 +16,14 @@ The program flow:
 4. If odd, multiply the integer by 3 and add 1
 5. Check the result: if 1 end, else repeat
 
+
+## License
+____
+
+collatz-conjecture is licensed under the GNU General Public License v3.0 or later
+
+See [LICENSE](LICENSE) to see the full text.
+
 ## Things To Do
 - Make the program interactive so the user can supply the starting number
 - Do more than just print results to screen; maybe write to a file
