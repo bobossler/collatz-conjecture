@@ -16,6 +16,11 @@ The program flow:
 4. If odd, multiply the integer by 3 and add 1
 5. Check the result: if 1 end, else repeat
 
+## Program Usage
+{your prompt}$ python3 Collatz_Conjecture.py
+
+usage: Collatz_Conjecture.py [-h] N
+where: N is the starting integer
 
 ## License
 ____
@@ -25,7 +30,6 @@ collatz-conjecture is licensed under the GNU General Public License v3.0 or late
 See [LICENSE](LICENSE) to see the full text.
 
 ## Things To Do
-- Make the program interactive so the user can supply the starting number
 - Do more than just print results to screen; maybe write to a file
 - Record/store highest integer found in the sequence
 - Integrate with a db to catalog all sequneces created

@@ -1,23 +1,35 @@
-#Get starting number from user
-num = -1
-while num <= 0:
-	user_response = input ("Enter a positive integer to start with? ")
-	num = int(user_response)
+# Collatz_Conjecture.py
 
-#Initialize iterator
+# last modified: 4/22/2024
+# Changes: removed prompt for starting number and
+#          replaced it with command line argument
+#          parsing using the Standard Library - argparse
+
+import argparse
+
+parser = argparse.ArgumentParser(description='Compute the Collatz-Conjecture')
+
+parser.add_argument('integer', metavar='N', type=int,
+        help='The starting integer to compute from')
+
+args = parser.parse_args()
+
+# Initialize iterator
 i = 0
 
-#Print the starting number
-print ("Testing new vimrc with Python code")
-print ("Starting number =", num)
+# set var to = the input parameter
+x = args.integer
 
-#Start main loop
-while num != 1:
+# Print the starting number
+print ("Starting number =", x)
+
+# Start main loop
+while x != 1:
     i += 1
-    if num % 2 == 0:
-        num /= 2
+    if x % 2 == 0:
+        x /= 2
     else:
-        num = num * 3 + 1
-    print (num)
-    
-print ("It took", i, "steps to reach", num)
+        x = x * 3 + 1
+    print (x)
+
+print ("It took", i, "steps to reach", x)
