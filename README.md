@@ -17,15 +17,16 @@ The program flow:
 5. Check the result: if 1 end, else repeat
 
 ## Program Usage
-{your prompt}$ python3 Collatz_Conjecture.py
+$ python3 collatz.py {starting integer}
 
-usage: Collatz_Conjecture.py [-h] N
+usage: collatz.py [-h] N
+
 where: N is the starting integer
 
 ## License
 ____
 
-collatz-conjecture is licensed under the GNU General Public License v3.0 or later
+collatz.py is licensed under the GNU General Public License v3.0 or later
 
 See [LICENSE](LICENSE) to see the full text.
 
