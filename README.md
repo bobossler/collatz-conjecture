@@ -17,11 +17,17 @@ The program flow:
 5. Check the result: if 1 end, else repeat
 
 ## Program Usage
-$ python3 collatz.py {starting integer}
+usage: collatz [-h] [-t] [-w] N
 
-usage: collatz.py [-h] N
+Compute the Collatz-Conjecture
 
-where: N is the starting integer
+positional arguments:
+  N                 The starting integer to compute from
+
+options:
+  -h, --help        show this help message and exit
+  -t, --trajectory  Display the highest number (trajectory) in the list
+  -w, --wide        Display the list horizontal rather than vertical
 
 ## License
 ____
@@ -32,7 +38,6 @@ See [LICENSE](LICENSE) to see the full text.
 
 ## Things To Do
 - Do more than just print results to screen; maybe write to a file
-- Record/store highest integer found in the sequence
 - Integrate with a db to catalog all sequneces created
 
 
