@@ -38,6 +38,6 @@ See [LICENSE](LICENSE) to see the full text.
 
 ## Things To Do
 - Do more than just print results to screen; maybe write to a file
-- Integrate with a db to catalog all sequneces created
-
+- Integrate with a db to catalog all sequences created
+- Migrate to Go (for fun and learning)
 
